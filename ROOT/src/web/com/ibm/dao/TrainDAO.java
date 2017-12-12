@@ -36,7 +36,7 @@ public class TrainDAO {
 			// TODO Auto-generated catch block
 			System.out.println("Connection in userdao error");
 		}  
-		return DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12194675","sql12194675","msr9YPar8M");
+		return DriverManager.getConnection("jdbc:mysql://mysql:3306/sampledb","user8ON","nQNaARi8ss6fTdhm");
 		/*Driver driver=new oracle.jdbc.driver.OracleDriver();
 		DriverManager.registerDriver(driver);
 		return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/XE","system","root");	*/	
